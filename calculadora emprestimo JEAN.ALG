@@ -1,16 +1,16 @@
 Algoritmo "semnome"
 
 Var
- parcela, parcelas, valor, juros, valor_total, resultado, resp: real
+ parcela, parcelas, valor, juros, valor_total, resp: real
  nome: caractere
 Inicio
-      escreval("=====NOSSO BANCO EST¡ COM UMA OFERTA EXCLUSIVA!!!======")
-      escreval("TODOS OS TIPOS DE EMPR…STIMOS COM TAXA DE 20% DE JUROS!")
+      escreval("=====NOSSO BANCO EST√Å COM UMA OFERTA EXCLUSIVA!!!======")
+      escreval("TODOS OS TIPOS DE EMPR√âSTIMOS COM TAXA DE 20% DE JUROS!")
       
       escreval("Seja Bem-Vindo ao banco #$#$#@, poderia informar o seu nome?")
       leia(nome)
 repita
-      escreva (nome, ", Digite o valor do emprÈstimo? R$")
+      escreva (nome, ", Digite o valor do empr√©stimo? R$")
       leia(valor)
            juros <- (valor * 20)/100
            valor_total <- valor + juros
@@ -18,8 +18,8 @@ repita
       leia (parcelas)
            parcela <- valor_total / parcelas
       
-      escreval(nome, ", O Seu emprÈstimo ficar·:", parcelas,"x de", parcela,"R$")
-      Escreval(nome, ", Deseja simular outros valores? [1 = SIM /2 = N√O]")
+      escreval(nome, ", O Seu empr√©stimo ficar√°:", parcelas,"x de", parcela,"R$")
+      Escreval(nome, ", Deseja simular outros valores? [1 = SIM /2 = N√ÉO]")
       leia (resp)
  ate (resp = 2)
 
